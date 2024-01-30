@@ -1,0 +1,21 @@
+.header__logo {
+    max-width: 254px;
+    max-height: 70px;
+    padding-top: 34px;
+    padding-left: 513px;
+    padding-right: 513px;
+    padding-bottom: 90px;
+}
+
+.header__logo-image {
+    padding-left: 111px;
+    padding-right: 111px;
+    padding-bottom: 20px;
+}
+
+.header__image {
+    width: 984px;
+    height: 615px;
+    top: 194px;
+    left: 148px;
+}

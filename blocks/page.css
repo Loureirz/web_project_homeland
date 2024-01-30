@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/InterDisplay-Regular.woff2);
+}
+
+@font-face {
+    font-family: "Inter Black";
+    src: url(../fonts/InterDisplay-Black.woff2);
+}
+
+body {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-family: "Inter Black", Arial, Helvetica, sans-serif;
+    max-width: 1280px;
+    min-width: 1100px;
+    margin: 0;
+}
+
+.page {
+    background-color: #2A2C2F;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
