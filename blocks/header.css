@@ -19,3 +19,17 @@
     top: 194px;
     left: 148px;
 }
+
+@media screen and (max-width: 1024px) {
+    .header__logo {
+        padding-top: 32px;
+        padding-left: 257px;
+        padding-right: 257px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .header__logo {
+        padding-top: 21px;
+    }
+}

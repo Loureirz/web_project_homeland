@@ -1,0 +1,106 @@
+.cover {
+    max-width: 1184px;
+    width: 100vw;
+    height: 740px;
+    margin-left: 48px;
+    margin-right: 48px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    background: rgba(42, 44, 47, 0.4) url(../images/cover.jpg) no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+  }
+
+  .cover:hover {
+    background-color: #2A2C2F;
+    transition: 0.5s;
+  }
+  
+  .visitus {
+    max-width: 656px;
+    top: 243px;
+    right: 264px;
+  }
+  
+  .visitus__title {
+    font-family: "Inter Black";
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  .visitus__text {
+    max-width: 280px;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 32px auto;
+    color: #ffffff;
+  }
+  
+  .visitus__button {
+    background-color: #0278fe;
+    width: 191px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    margin: 0 76px;
+  }
+  
+  .visitus__button:hover {
+    color: #ffffff;
+    background-color: #0063D2;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .cover {
+      max-width: 768px;
+      max-height: 746px;
+      margin: 0;
+    }
+  }
+
+  @media screen and (max-width: 544px) {
+      .cover {
+        max-width: 320px;
+        max-height: 254px;
+      }
+    
+      .visitus {
+        max-width: 288px;
+      }
+    
+      .visitus__title {
+        font-size: 2rem;
+        line-height: 2.18rem;
+      }
+    
+      .visitus__text {
+        font-size: 0.87rem;
+        line-height: 1rem;
+      }
+    
+      .visitus__button {
+        font-size: 1.12rem;
+        line-height: 1.37rem;
+        margin: 0 49px;
+      }
+  }
